@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecondWebForm", "SecondWebF
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComputerOrdersForm", "ComputerOrdersForm\ComputerOrdersForm.csproj", "{94429F60-6A08-402C-86E5-E4285B557509}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebForms", "WebForms", "{9A2BDF03-A325-495E-82BF-A97B48D36827}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationVsSessionState", "ApplicationVsSessionState\ApplicationVsSessionState.csproj", "{A6BBCCD3-451B-4266-806B-95C6586BF82E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,8 +31,18 @@ Global
 		{94429F60-6A08-402C-86E5-E4285B557509}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94429F60-6A08-402C-86E5-E4285B557509}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94429F60-6A08-402C-86E5-E4285B557509}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6BBCCD3-451B-4266-806B-95C6586BF82E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6BBCCD3-451B-4266-806B-95C6586BF82E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6BBCCD3-451B-4266-806B-95C6586BF82E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6BBCCD3-451B-4266-806B-95C6586BF82E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{080C87A0-A4DC-4C5E-9036-866D6AB58E24} = {9A2BDF03-A325-495E-82BF-A97B48D36827}
+		{A6B0DE8B-01D2-4C8B-8882-2AEAF08FFC71} = {9A2BDF03-A325-495E-82BF-A97B48D36827}
+		{94429F60-6A08-402C-86E5-E4285B557509} = {9A2BDF03-A325-495E-82BF-A97B48D36827}
+		{A6BBCCD3-451B-4266-806B-95C6586BF82E} = {9A2BDF03-A325-495E-82BF-A97B48D36827}
 	EndGlobalSection
 EndGlobal
