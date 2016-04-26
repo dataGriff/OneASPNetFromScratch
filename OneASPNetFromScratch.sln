@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebForms", "WebForms", "{9A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationVsSessionState", "ApplicationVsSessionState\ApplicationVsSessionState.csproj", "{A6BBCCD3-451B-4266-806B-95C6586BF82E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cookies", "Cookies\Cookies.csproj", "{B700C08E-4E63-4158-AF1F-A9A3E51251FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{A6BBCCD3-451B-4266-806B-95C6586BF82E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6BBCCD3-451B-4266-806B-95C6586BF82E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6BBCCD3-451B-4266-806B-95C6586BF82E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B700C08E-4E63-4158-AF1F-A9A3E51251FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B700C08E-4E63-4158-AF1F-A9A3E51251FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B700C08E-4E63-4158-AF1F-A9A3E51251FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B700C08E-4E63-4158-AF1F-A9A3E51251FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
