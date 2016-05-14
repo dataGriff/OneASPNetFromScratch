@@ -9,7 +9,7 @@
 <body>
     <form id="form1" runat="server">
     <div>
-        Enter your birthdate <br />
+        Enter your birthdate mate <br />
         <input id="BirthDate" type="text" runat="server"/><br />
         <input id="Submit" type="submit" value="Submit" runat="server" /><br />
    <div id="Message" runat="server"></div>
